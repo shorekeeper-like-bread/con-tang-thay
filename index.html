@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tri ân Thầy Hồ Huỳnh Phong · Ngày Nhà giáo Việt Nam 20/11/2026</title>
+  <meta name="description" content="Trang web tri ân Ngày Nhà giáo Việt Nam 20/11/2026 kính tặng Thầy Hồ Huỳnh Phong – Giảng viên Khoa CNTT, Học viện Hàng không Việt Nam (VAA).">
+
+  <!-- Open Graph / Social Preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tri ân Thầy Hồ Huỳnh Phong · 20/11/2026">
+  <meta property="og:description" content="Món quà 20/11 đặc biệt dành tặng Thầy Hồ Huỳnh Phong – Giảng viên Khoa CNTT, Học viện Hàng không Việt Nam (VAA).">
+  <meta property="og:url" content="https://shorekeeper-like-bread.github.io/con-tang-thay/">
+  <meta property="og:image" content="https://shorekeeper-like-bread.github.io/con-tang-thay/assets/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tri ân Thầy Hồ Huỳnh Phong · 20/11/2026">
+  <meta name="twitter:description" content="Món quà 20/11 đặc biệt dành tặng Thầy Hồ Huỳnh Phong – Khoa CNTT · VAA.">
+  <meta name="twitter:image" content="https://shorekeeper-like-bread.github.io/con-tang-thay/assets/img/og.jpg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=JetBrains+Mono:wght@400;500;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css?v=84a49083">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js" defer></script>
+</head>
+<body>
+
+  <!-- =========================================================
+       MÀN 1: GATE TERMINAL (SECURE BOOT + 10 LỚP TƯỜNG LỬA + ROOT)
+       ========================================================= -->
+  <section id="gate" class="screen active" aria-label="Cổng bảo mật">
+    <div class="term-window">
+      <div class="term-bar">
+        <div class="term-dots">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+        </div>
+        <span class="term-title">root@vaa-cntt-sec:~ — SECURITY GATEWAY v20.11</span>
+      </div>
+
+      <div class="term-body">
+        <div id="gate-log" class="term-log" aria-live="polite"></div>
+
+        <!-- 10 lớp tường lửa -->
+        <div id="fw-panel" class="fw-panel hidden">
+          <div class="fw-head">
+            <span class="fw-label">FIREWALL</span>
+            <div id="fw-cells" class="fw-cells" aria-label="Tiến độ tường lửa 10 lớp"></div>
+            <span id="fw-count" class="fw-count">0/10</span>
+          </div>
+
+          <div id="fw-question-box" class="fw-qbox">
+            <div id="fw-subject" class="fw-subject"></div>
+            <p id="fw-q" class="fw-q"></p>
+            <div id="fw-opts" class="fw-opts"></div>
+            <div id="fw-feedback" class="fw-feedback" aria-live="polite"></div>
+          </div>
+        </div>
+
+        <!-- Mật khẩu root -->
+        <div id="root-panel" class="root-panel hidden">
+          <div class="root-cmd">
+            <span class="prompt">teacher@vaa-cntt:~$</span> sudo su root
+          </div>
+          <form id="root-form" class="root-form" autocomplete="off">
+            <label for="root-pw" class="root-lbl">root password:</label>
+            <input id="root-pw" type="password" class="root-input" autocomplete="off" spellcheck="false" placeholder="Nhập mật khẩu định danh...">
+            <button id="root-submit" type="submit" class="btn-term">Xác thực</button>
+          </form>
+          <div id="root-status" class="root-status" aria-live="polite"></div>
+          <div id="root-hints" class="root-hints"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       MÀN 2A: MÀN KHOÁ CÓ 1 NÚT
+       ========================================================= -->
+  <section id="lock-screen" class="screen" aria-label="Màn hình chờ giải mã">
+    <canvas id="matrix-cv" class="matrix-cv" aria-hidden="true"></canvas>
+    <div class="lock-card">
+      <div class="shield-wrap" aria-hidden="true">
+        <svg class="shield-svg" viewBox="0 0 80 92" width="76" height="88">
+          <path d="M40 4 L72 16 V44 C72 65 58 80 40 88 C22 80 8 65 8 44 V16 Z" fill="rgba(212,175,55,0.12)" stroke="#d4af37" stroke-width="2.5"/>
+          <path d="M27 46 L36 55 L54 35" fill="none" stroke="#f6d878" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <p class="lock-verified">✓ DANH TÍNH ĐÃ XÁC MINH · CHÀO MỪNG THẦY</p>
+      <h2 class="lock-name">Thầy Hồ Huỳnh Phong</h2>
+      <p class="lock-meta">Khoa Công nghệ Thông tin · Học viện Hàng không Việt Nam (VAA)</p>
+      <button id="btn-decrypt" type="button" class="btn-decrypt">[ GIẢI MÃ LỜI TRI ÂN ]</button>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       MÀN 2B: TERMINAL HACKER GIẢI MÃ
+       ========================================================= -->
+  <section id="hack-screen" class="screen" aria-label="Terminal giải mã">
+    <div class="term-window hack-window">
+      <div class="term-bar">
+        <div class="term-dots">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+        </div>
+        <span class="term-title">root@vaa-mainframe:~/tri-an — DECRYPTION CONSOLE</span>
+        <button id="btn-speed" type="button" class="btn-speed">Tăng tốc »</button>
+      </div>
+      <div class="term-body hack-body">
+        <div id="hack-log" class="term-log"></div>
+        <div id="fp-box" class="fp-box hidden" aria-hidden="true">
+          <svg class="fp-svg" viewBox="0 0 100 100" width="76" height="76">
+            <circle cx="50" cy="50" r="42" fill="none" stroke="rgba(212,175,55,0.28)" stroke-width="2"/>
+            <path d="M30 58 C30 38, 70 38, 70 58" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M36 64 C36 45, 64 45, 64 64" fill="none" stroke="#f6d878" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M43 70 C43 52, 57 52, 57 70" fill="none" stroke="#4ade80" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M24 50 C24 28, 76 28, 76 50" fill="none" stroke="#d4af37" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <span class="fp-label">BIOMETRIC KEY VERIFIED · 2048-BIT RSA</span>
+        </div>
+        <div id="hack-progress" class="hack-progress hidden">
+          <div class="hack-bar-track">
+            <div id="hack-bar-fill" class="hack-bar-fill"></div>
+          </div>
+          <span id="hack-bar-pct" class="hack-bar-pct">0%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       MÀN 3: CỬA KÉT SẮT VÀNG
+       ========================================================= -->
+  <section id="vault" class="screen" aria-label="Cửa két sắt tri ân">
+    <div class="vault-door left">
+      <div class="vault-plate"></div>
+    </div>
+    <div class="vault-door right">
+      <div class="vault-plate"></div>
+    </div>
+    <div id="vault-wheel" class="vault-wheel" aria-hidden="true">
+      <div class="wheel-ring"></div>
+      <div class="wheel-spoke s1"></div>
+      <div class="wheel-spoke s2"></div>
+      <div class="wheel-spoke s3"></div>
+      <div class="wheel-hub">20/11</div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       MÀN 4: TRANG CHÍNH
+       ========================================================= -->
+  <main id="main" class="main-wrap hidden">
+    <canvas id="star-cv" class="star-cv" aria-hidden="true"></canvas>
+
+    <!-- Nút nhạc góc phải dưới -->
+    <button id="music-toggle" type="button" class="music-btn" aria-label="Bật hoặc tắt nhạc" title="Bật / Tắt nhạc">♪</button>
+
+    <!-- Máy bay kéo băng rôn -->
+    <div id="plane-banner" class="plane-banner" aria-hidden="true">
+      <div class="banner-tail">CHÚC MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20/11 · TRI ÂN THẦY HỒ HUỲNH PHONG!</div>
+      <div class="banner-rope"></div>
+      <svg class="plane-svg" viewBox="0 0 120 48" width="110" height="44">
+        <path d="M10 26 L44 22 L66 6 L76 6 L64 22 L98 20 L114 25 L98 30 L64 29 L74 42 L64 42 L44 29 L12 31 L4 36 L0 36 L6 26 L2 17 L6 17 Z" fill="#f6d878" stroke="#8c6812" stroke-width="1.5"/>
+      </svg>
+    </div>
+
+    <!-- HERO -->
+    <header id="hero" class="section hero-section">
+      <div class="container hero-inner">
+        <button id="vaa-badge" type="button" class="hero-badge" title="Học viện Hàng không Việt Nam">
+          VAA · KHOA CNTT
+        </button>
+
+        <div class="avatar-wrap">
+          <div class="gold-ring outer" aria-hidden="true"></div>
+          <div class="gold-ring inner" aria-hidden="true"></div>
+          <img src="assets/img/thay-phong.png" alt="Thầy Hồ Huỳnh Phong" class="hero-avatar">
+        </div>
+
+        <p class="hero-kicker">NGÀY NHÀ GIÁO VIỆT NAM · 20 / 11 / 2026</p>
+        <h1 id="hero-name" class="hero-name">Thầy Hồ Huỳnh Phong</h1>
+        <p id="hero-title" class="hero-title">Giảng viên Khoa Công nghệ Thông tin</p>
+        <p id="hero-school" class="hero-school">Học viện Hàng không Việt Nam (VAA)</p>
+
+        <div id="hero-subjects" class="subject-chips" aria-label="Các môn giảng dạy"></div>
+
+        <a href="#profile" class="scroll-cue" aria-label="Cuộn xuống">
+          <span>Khám phá hồ sơ tri ân</span>
+          <span class="arrow">↓</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- HỒ SƠ MẬT -->
+    <section id="profile" class="section profile-section">
+      <div class="container">
+        <div class="section-head">
+          <span class="sec-tag">01 · HỒ SƠ GIẢNG VIÊN</span>
+          <h2 class="sec-title">Hồ Sơ Mật Giảng Viên</h2>
+        </div>
+
+        <article class="dossier-card">
+          <div class="dossier-top">
+            <span class="dossier-id">FILE ID: VAA-CNTT-20112026</span>
+            <span class="dossier-class">TRẠNG THÁI: TRÂN TRỌNG TUYỆT ĐỐI</span>
+          </div>
+
+          <div id="profile-stamp" class="stamp">ĐÃ XÁC MINH</div>
+
+          <div class="dossier-grid">
+            <div class="dossier-photo-col">
+              <img src="assets/img/thay-phong.png" alt="Ảnh hồ sơ Thầy Hồ Huỳnh Phong" class="dossier-photo">
+              <span class="photo-caption">HỒ HUỲNH PHONG · VAA</span>
+            </div>
+
+            <div class="dossier-info-col">
+              <dl class="dossier-dl">
+                <div class="dl-row">
+                  <dt>Họ và tên</dt>
+                  <dd>Thầy Hồ Huỳnh Phong</dd>
+                </div>
+                <div class="dl-row">
+                  <dt>Đơn vị</dt>
+                  <dd>Khoa Công nghệ Thông tin · Học viện Hàng không Việt Nam (VAA)</dd>
+                </div>
+                <div class="dl-row">
+                  <dt>Giảng dạy</dt>
+                  <dd id="profile-subjects">Cơ sở dữ liệu · Cấu trúc dữ liệu &amp; Giải thuật · An ninh mạng</dd>
+                </div>
+                <div class="dl-row">
+                  <dt>Truy vấn yêu thích</dt>
+                  <dd>
+                    <code class="sql-inline">SELECT tri_an FROM ky_uc WHERE giang_vien = 'Hồ Huỳnh Phong' ORDER BY tam_huyet DESC;</code>
+                  </dd>
+                </div>
+              </dl>
+
+              <div class="dossier-stats">
+                <div class="stat-box">
+                  <span class="stat-val" data-mode="inf">∞</span>
+                  <span class="stat-lbl">Giá trị tri thức truyền trao</span>
+                </div>
+                <div class="stat-box">
+                  <span class="stat-val" data-mode="zero">0</span>
+                  <span class="stat-lbl">Lần ngại giải đáp thắc mắc cho sinh viên</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 9 THẺ LỜI CHÚC LẬT 3D -->
+    <section id="wishes" class="section wishes-section">
+      <div class="container">
+        <div class="section-head">
+          <span class="sec-tag">02 · THẺ LỜI CHÚC 3D</span>
+          <h2 class="sec-title">Lời Chúc Thầy</h2>
+          <p class="sec-sub">Chạm vào từng thẻ để lật mở lời tri ân</p>
+        </div>
+
+        <div id="wishes-grid" class="wishes-grid"></div>
+      </div>
+    </section>
+
+    <!-- GIẢI THUẬT TRI ÂN -->
+    <section id="algo" class="section algo-section">
+      <div class="container">
+        <div class="section-head">
+          <span class="sec-tag">03 · MÔ PHỎNG THUẬT TOÁN</span>
+          <h2 class="sec-title">Giải Thuật Tri Ân</h2>
+          <p class="sec-sub">Sắp xếp lại những ký tự xáo trộn để ghép thành thông điệp gửi thầy</p>
+        </div>
+
+        <div class="algo-card">
+          <div class="algo-controls">
+            <div class="algo-tabs" role="tablist" aria-label="Chọn thuật toán sắp xếp">
+              <button type="button" class="algo-tab active" data-alg="quick">QuickSort</button>
+              <button type="button" class="algo-tab" data-alg="bubble">Bubble Sort</button>
+              <button type="button" class="algo-tab" data-alg="insertion">Insertion Sort</button>
+            </div>
+            <button id="algo-replay" type="button" class="btn-outline">Xáo trộn &amp; Chạy lại</button>
+          </div>
+
+          <div class="algo-metrics">
+            <div class="metric"><span>So sánh:</span> <strong id="algo-cmp">0</strong></div>
+            <div class="metric"><span>Hoán đổi:</span> <strong id="algo-swp">0</strong></div>
+            <div class="metric"><span>Độ phức tạp:</span> <strong id="algo-bigo">O(n log n)</strong></div>
+          </div>
+
+          <div id="algo-bars" class="algo-bars" aria-label="Biểu đồ cột sắp xếp"></div>
+          <div id="algo-result" class="algo-result" aria-live="polite">Đang chờ sắp xếp...</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HỘP BÍ MẬT (CTF SENIOR + PHONG THƯ + THÔNG ĐIỆP NHỊ PHÂN) -->
+    <section id="secret-box" class="section secret-section">
+      <div class="container">
+        <div class="section-head">
+          <span class="sec-tag">04 · HỘP QUÀ BÍ MẬT</span>
+          <h2 class="sec-title">Hộp Bí Mật</h2>
+          <p class="sec-sub">Ba lớp quà dành riêng cho giảng viên An ninh mạng &amp; Hệ thống</p>
+        </div>
+
+        <div class="secret-grid">
+          <!-- Quà 1: CTF cấp SENIOR -->
+          <article class="secret-card ctf-card">
+            <div class="card-badge">MÓN QUÀ 01 · CTF CẤP SENIOR</div>
+            <h3 id="ctf-title" class="card-title"></h3>
+            <p id="ctf-prompt" class="card-desc"></p>
+            <pre id="ctf-raw" class="raw-http"></pre>
+            <p id="ctf-question" class="card-q"></p>
+
+            <form id="ctf-form" class="inline-form" autocomplete="off">
+              <input id="ctf-input" type="text" class="text-input" placeholder="Nhập flag (vd: XX.YY)..." autocomplete="off" spellcheck="false">
+              <button type="submit" class="btn-gold">Nộp Flag</button>
+              <button id="ctf-hint-btn" type="button" class="btn-outline">Gợi ý</button>
+            </form>
+            <div id="ctf-hint-box" class="hint-box hidden"></div>
+            <div id="ctf-status" class="status-box" aria-live="polite"></div>
+          </article>
+
+          <!-- Quà 2: Phong thư tay -->
+          <article class="secret-card envelope-card">
+            <div class="card-badge">MÓN QUÀ 02 · THƯ TAY TRI ÂN</div>
+            <h3 class="card-title">Phong Thư Gửi Thầy Phong</h3>
+            <p class="card-desc">Bức thư viết riêng nhân ngày 20/11/2026 từ một sinh viên Khoa CNTT – VAA.</p>
+
+            <button id="open-letter-btn" type="button" class="envelope-btn" aria-label="Mở phong thư tay">
+              <div class="env-flap"></div>
+              <div class="env-body">
+                <span class="wax-seal">20/11</span>
+                <span class="env-cta">Nhấn để mở thư tay</span>
+              </div>
+            </button>
+          </article>
+        </div>
+
+        <!-- Quà 3: Thông điệp nhị phân -->
+        <article id="binary-box" class="secret-card binary-card">
+          <div class="card-badge">MÓN QUÀ 03 · 💾 THÔNG ĐIỆP NHỊ PHÂN (38 BYTE ASCII)</div>
+          <h3 class="card-title">Giải Mã Chuỗi Nhị Phân 8-Bit</h3>
+          <p class="card-desc">Chuyển đổi dãy nhị phân dưới đây sang ký tự ASCII và nhập bản dịch để mở khóa lời chúc.</p>
+
+          <div id="bin-grid" class="bin-grid" aria-label="Lưới 38 byte nhị phân"></div>
+
+          <form id="bin-form" class="inline-form bin-form" autocomplete="off">
+            <input id="bin-input" type="text" class="text-input" placeholder="Nhập thông điệp tiếng Việt không dấu đã giải mã..." autocomplete="off" spellcheck="false">
+            <button type="submit" class="btn-gold">Kiểm tra bản dịch</button>
+            <button id="bin-reveal-btn" type="button" class="btn-outline hidden">🔓 Giải mã</button>
+          </form>
+          <div id="bin-status" class="status-box" aria-live="polite"></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PHÒNG XỬ LÝ SỰ CỐ -->
+    <section id="cases" class="section cases-section">
+      <div class="container">
+        <div class="section-head">
+          <span class="sec-tag">05 · XỬ LÝ SỰ CỐ</span>
+          <h2 class="sec-title">Phòng Xử Lý Sự Cố</h2>
+          <p class="sec-sub">Trả lời tự do 1 câu cho mỗi tình huống (nhấn Enter để gửi) để mở khóa tấm thiệp cuối cùng</p>
+        </div>
+
+        <div class="cases-progress">
+          <span>Tiến độ xử lý:</span>
+          <strong id="cases-count">0/3 sự cố đã xử lý</strong>
+        </div>
+
+        <div id="cases-list" class="cases-list"></div>
+      </div>
+    </section>
+
+    <!-- THIỆP CHÚC MỪNG 3D -->
+    <section id="greet" class="section greet-section">
+      <div class="container">
+        <div class="section-head">
+          <span class="sec-tag">06 · THIỆP TRI ÂN 3D</span>
+          <h2 class="sec-title">Thiệp Chúc Mừng 20/11</h2>
+        </div>
+
+        <div id="greet-lock" class="greet-lock">
+          <span class="lock-glyph">🔒</span>
+          <p>Hoàn thành cả <strong>3 tình huống</strong> ở Phòng Xử Lý Sự Cố phía trên để mở khóa tấm thiệp chúc mừng 3D.</p>
+        </div>
+
+        <div id="greet-stage" class="greet-stage hidden">
+          <div id="greet-card" class="greet-card" role="button" tabindex="0" aria-label="Chạm để mở thiệp chúc mừng 3D">
+            <div class="greet-cover">
+              <div class="greet-cover-inner">
+                <span class="greet-badge" id="greet-badge"></span>
+                <h3 class="greet-cover-title">Thiệp Tri Ân 20/11</h3>
+                <p class="greet-cover-sub">Kính tặng Thầy Hồ Huỳnh Phong</p>
+                <span class="greet-tap">Chạm để mở thiệp ✨</span>
+              </div>
+            </div>
+            <div class="greet-inside">
+              <img src="assets/img/thay-phong.png" alt="Thầy Hồ Huỳnh Phong" class="greet-photo">
+              <h3 id="greet-title" class="greet-in-title"></h3>
+              <p id="greet-body" class="greet-in-body"></p>
+              <blockquote id="greet-quote" class="greet-quote"></blockquote>
+              <p id="greet-sig" class="greet-sig"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KẾT -->
+    <footer id="end" class="section end-section">
+      <div class="container end-inner">
+        <div class="credits-box">
+          <p class="credits-role" id="end-credits">Ý tưởng &amp; thực hiện: Nguyễn Phú Đạt</p>
+          <p class="credits-sub">Khoa Công nghệ Thông tin · Học viện Hàng không Việt Nam (VAA)</p>
+        </div>
+
+        <div class="end-signature" id="end-signature">Nguyễn Phú Đạt</div>
+        <p class="end-date" id="end-date">Ngày Nhà giáo Việt Nam · 20/11/2026</p>
+
+        <div class="end-actions">
+          <button id="btn-fireworks" type="button" class="btn-gold">Bắn pháo hoa chúc mừng 🎆</button>
+          <button id="btn-replay" type="button" class="btn-outline">Xem lại từ đầu ↻</button>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- DIALOG THƯ TAY -->
+  <dialog id="letter-dialog" class="letter-dialog" aria-labelledby="letter-salutation">
+    <div class="letter-paper">
+      <button id="close-letter-btn" type="button" class="letter-close" aria-label="Đóng thư">✕</button>
+      <div class="letter-header-ornament">✦ 20 / 11 / 2026 ✦</div>
+      <h3 id="letter-salutation" class="letter-salutation"></h3>
+      <div id="letter-body" class="letter-body"></div>
+      <div class="letter-footer">
+        <p id="letter-closing" class="letter-closing"></p>
+        <p id="letter-signature" class="letter-signature"></p>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="assets/js/config.secure.js?v=384881ac"></script>
+  <script src="assets/js/app.js?v=571c8d5c"></script>
+</body>
+</html>
